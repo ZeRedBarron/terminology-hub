@@ -1,0 +1,53 @@
+/*Main Setup*/
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 0px;
+    background: rgba(36, 72, 119, 0.712);
+    z-index: 2; 
+    border-bottom: 2px solid #becee2;
+    /*font-family: "Orbitron";*/
+    user-select: none;
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10;
+    padding: 3px 10px;
+    word-wrap: normal;
+    display: inline-block;
+}
+#nav a:hover {
+    background-color: rgba(194, 190, 194, 0.2);
+    display: inline-block;
+    word-wrap: normal;
+}
+
+.page {
+    animation: fadeIn 1s linear;
+    padding: 200px;
+}
+
+.main_header {
+    /*font-family: "Turret Road", "Consolas", "Lucinda Console", serif;*/
+    font-size: 30px;
+    padding: 40px;
+    margin-left: -200px;
+    margin-right: -200px;
+}

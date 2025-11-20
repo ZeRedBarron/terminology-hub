@@ -21,7 +21,7 @@
     padding: 20px 0px;
     background: rgba(36, 72, 119, 0.712);
     z-index: 2; 
-    border-bottom: 2px solid #becee2;
+    border-bottom: 2px solid #6191cc;
     /*font-family: "Orbitron";*/
     user-select: none;
 }
@@ -41,7 +41,7 @@
 
 .page {
     animation: fadeIn 1s linear;
-    padding: 200px;
+    padding: 175px;
 }
 
 .main_header {
@@ -50,4 +50,43 @@
     padding: 40px;
     margin-left: -200px;
     margin-right: -200px;
+}
+
+.page-text {
+    padding: 60px;
+}
+
+#home {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, rgb(155, 192, 238), rgb(36, 69, 113));
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 69, 138);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    /*font-family: 'Tinos', "Times New Roman", serif;*/
+}
+
+.footer a:link {
+    color: indianred;
+}
+.footer a:visited {
+    /*color: white;*/
+}
+.footer a:hover {
+    color: red;
+}
+.footer a:active {
+    color: yellowgreen
+}
+ 
+#footer-text {
+    padding: 30px;
 }
